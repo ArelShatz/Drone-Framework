@@ -1,5 +1,6 @@
 from collections import deque
 from time import sleep, perf_counter
+from helpers import insort_left_key
 
 class EventLoop():
     def __init__(self):
